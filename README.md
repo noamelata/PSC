@@ -31,7 +31,7 @@ To use image captions for image compression, add `--use-caption` to caption the 
 
 Remove `--simulate` to preform the compression and decompression separately. Increases runtime by a factor of 2.
 
-## References and Acknowledgements
+## References
 ```BibTeX
 @misc{elata2024posterior,
       title={PSC: Posterior Sampling-Based Compression}, 
