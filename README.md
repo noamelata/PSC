@@ -1,5 +1,5 @@
 # PSC: Posterior Sampling-Based Compression
-<a href="https://noamelata.github.io/">Noam Elata</a>, <a href="https://tomer.net.technion.ac.il/">Tomer Michaeli</a>, <a href="https://elad.cs.technion.ac.il/">Michael Elad</a><br>
+<a href="https://noamelata.github.io/">Noam Elata</a>, <a href="https://tomer.net.technion.ac.il/">Tomer Michaeli</a>, <a href="https://elad.cs.technion.ac.il/">Michael Elad</a><br><br>
 ![PSC Diagram](./assets/PSC_Compression_Diagram.png)
 <img src="./assets/arxiv.svg" style="width:16px;">  [`ArXiv`](https://arxiv.org/abs/2407.09896) <br>
 

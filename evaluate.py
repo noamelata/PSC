@@ -69,7 +69,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--outdir', type=str, default=None)
     parser.add_argument('--data-dir', type=str)
-    parser.add_argument('--use-captions', action="store_true")
+    parser.add_argument('-c' '--use-captions', action="store_true")
     parser.add_argument('-v', '--num-variations', type=int, default=1)
     parser.add_argument('-n', '--num-samples', type=int, default=None)
     parser.add_argument('-r', '--rank', type=int, default=12)
