@@ -1,14 +1,13 @@
 # PSC: Posterior Sampling-Based Compression
-![PSC Diagram](./assets/PSC_compression_Diagram.png)
-
 <a href="https://noamelata.github.io/">Noam Elata</a>, <a href="https://tomer.net.technion.ac.il/">Tomer Michaeli</a>, <a href="https://elad.cs.technion.ac.il/">Michael Elad</a><br>
 <img src="./assets/arxiv.svg" style="width:16px;">  [`ArXiv`](https://arxiv.org/abs/2407.09896) <br>
+![PSC Diagram](./assets/PSC_Compression_Diagram.png)
 
-
+## Abstract
 Diffusion models have transformed the landscape of image generation and now show remarkable potential for image compression. Most of the recent diffusion-based compression methods require training and are tailored for a specific bit-rate. In this work, we propose Posterior Sampling-based Compression (PSC) - a zero-shot compression method that leverages a pre-trained diffusion model as its sole neural network component, thus enabling the use of diverse, publicly available models without additional training. Our approach is inspired by transform coding methods, which encode the image in some pre-chosen transform domain. However, PSC constructs a transform that is adaptive to the image. This is done by employing a zero-shot diffusion-based posterior sampler so as to progressively construct the rows of the transform matrix. Each new chunk of rows is chosen to reduce the uncertainty about the image given the quantized measurements collected thus far. Importantly, the same adaptive scheme can be replicated at the decoder, thus avoiding the need to encode the transform itself. We demonstrate that even with basic quantization and entropy coding, PSC's performance is comparable to established training-based methods in terms of rate, distortion, and perceptual quality. This is while providing greater flexibility, allowing to choose at inference time any desired rate or distortion. 
 
 ## Requirements
-Please install a recent version of PyTorch (>=2.0), torchvision, diffusers, transformers, and tqdm.
+Please install a recent version of PyTorch (>=2.5), torchvision, diffusers, transformers, and tqdm.
 
 ## Usage
 **This is a preliminary implementation version.**
